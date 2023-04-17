@@ -1,12 +1,13 @@
 #ifndef DOG_H
 #define DOG_H
-/*
- * struct dog - a dog s info.
- * @name: 1st information about the dog( it s name).
- * @age: 2nd info about the dog( it s age).
- * @owner: 3rd info about the dog(it s owner).
+
+/**
+ * struct dog - a dog's info
+ * @name: 1st member
+ * @age: 2nd member
+ * @owner: 3rd member
  *
- * Description: struct "dog" that contains name age and owner of the dog.
+ * Description: Longer description
  */
 struct dog
 {
@@ -16,7 +17,7 @@ struct dog
 };
 
 /**
- * dog_t - typedef for the struct dog
+ * dog_t - typedef for struct dog
  */
 typedef struct dog dog_t;
 
