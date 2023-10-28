@@ -16,7 +16,7 @@ return (num);
 }
 /**
  * print_binary - prints the binary representation of a number
- * @n: number 
+ * @n: number
  * Return: void
  */
 void print_binary(unsigned long int n)
